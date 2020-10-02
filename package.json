@@ -1,0 +1,16 @@
+{
+  "name": "typedoc-plugin-theme",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@docusaurus/init": "next"
+  },
+  "resolutions": {
+    "typedoc": "patch:typedoc@0.19.2#patches/typedoc.patch"
+  },
+  "workspaces": [
+    "website"
+  ]
+}

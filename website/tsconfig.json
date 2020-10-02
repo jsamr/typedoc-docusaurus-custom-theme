@@ -1,0 +1,11 @@
+{
+    "$schema": "http://json.schemastore.org/tsconfig",
+    "compilerOptions": {
+      "allowJs": false,
+      "composite": false,
+      "noEmit": false,
+      "declaration": true,
+      "noImplicitAny": false,
+      "skipLibCheck": true
+    }
+  }
